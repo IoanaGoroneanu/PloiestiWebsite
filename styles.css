@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+
+.hero {
+    background-image: url("images/ploiesti.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-title {
+    background-color: #606C38;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 35px;
+}
+
+#hero-text {
+    background-color: #283618;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #FEFAE0;
+}
+
+#activities-title {
+    text-align: center;
+    color: #283618;
+    margin: 40px 0px 60px 0px;
+    font-size: 30px;
+}
+
+.attractions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.card-image {
+    height: 180px;
+    width: 180px;
+    margin: 0 0 30px 0;
+    border-radius: 20%;
+}
+
+.card-title {
+    text-align: center;
+    color: #283618;
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+
+.card-text {
+    text-align: center;
+    color: #283618;
+    margin: 0;
+    font-size: 20px;
+}
+
+.guide {
+    background-color: #3A5A40;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.guide-card {
+    display: flex;
+    align-items: center;
+    background-color: #FEFAE0 ;
+    padding: 30px 20px;
+    width: 450px;
+    border-radius: 10px;
+    border-bottom: 20px solid #606C38;
+}
+
+.info {
+    padding: 0 20px;
+    color: #3A5A40;
+    text-align: center;
+}
+
+.guide-title {
+    font-size: 30px;
+}
+
+.guide-text {
+    font-size: 20px;
+}
+
+.guide-name {
+    font-style: italic;
+}
